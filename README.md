@@ -1,4 +1,5 @@
 ### Google Chrome extension
+https://chrome.google.com/webstore/detail/kmlfjhhcdlbdnnphkgfjahkheahcepac/publish-accepted?authuser=0&hl=ja
 ### Copy GitHub issue title and link as Markdown formatting syntax 
 The extension will only be active at the issue page and pull request page.
 
