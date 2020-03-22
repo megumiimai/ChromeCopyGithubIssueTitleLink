@@ -4,7 +4,7 @@
     const title = $header.getElementsByClassName('js-issue-title')[0].innerText.trim();
     const number = $header.getElementsByClassName('gh-header-number')[0].innerText.trim();
     const url = window.location.href;
-    const type = /^https:\/\/github.com\/(.+)\/(.+)\/issues\/(\d+)/.test(url) ? 'Issue' : 'Pull request';
+    const type = /^https:\/\/github.com\/(.+)\/(.+)\/issues\/(\d+)/.test(url) ? 'Issue' : 'Pull Request';
     return `[${title} · ${type} ${number}](${url})`;
   };
 
